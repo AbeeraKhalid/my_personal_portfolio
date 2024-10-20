@@ -169,7 +169,7 @@ const NextJsProjects = () => {
               data-aos="fade-right"
             >
               <Image
-                src={require("../../../public/assests/Projects/number Guessing.jpg")}
+                src={require("../../../public/assests/Projects/numberGuessing.jpg")}
                 alt="Project 1"
                 className="w-full h-48 object-cover ease-in-out transform hover:scale-105"
               />
@@ -198,7 +198,7 @@ const NextJsProjects = () => {
               data-aos="fade-right"
             >
               <Image
-                src={require("../../../public/assests/Projects/portfolio.jpg")}
+                src={require("../../../public/assests/Projects/myportfolio.jpg")}
                 alt="Project 1"
                 className="w-full h-48 object-cover ease-in-out transform hover:scale-105"
               />
