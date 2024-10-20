@@ -12,7 +12,7 @@ const Skill=()=>{
       <h2 className=" sm:text-1xl text-cyan-700 tracking-widest font-bold title-font mb-1 font-serif">
       Skills...
       </h2>
-      <h1 className="sm:text-3xl text-2xl font-bold font-style: italic underline underline-offset-1 ... title-font text-slate-800 font-serif">
+      <h1 className="sm:text-3xl text-2xl font-bold font-style: italic underline underline-offset-1 ... title-font text-cyan-900 font-serif">
         MY SKILLS
       </h1>
     </div>

@@ -31,7 +31,7 @@ const Contact =()=>{
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-serif">
             EMAIL
           </h2>
-          <a className="text-indigo-500 leading-relaxed">abeera-m-khalid@outlook.com</a>
+          <a className="text-cyan-500 leading-relaxed">abeera-m-khalid@outlook.com</a>
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
             PHONE
           </h2>
@@ -40,12 +40,16 @@ const Contact =()=>{
       </div>
     </div>
     <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-      <h2 className="title-font sm:text-4xl font-serif text-2xl mb-4 font-medium text-slate-800 font-style: italic font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif underline underline-offset-1 ...">
+      <h2 className="title-font sm:text-4xl font-serif text-2xl mb-4 font-bold text-cyan-900 font-style: italic font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif underline underline-offset-1 ...">
         CONTACT
       </h2>
-      <p className="leading-relaxed mb-5 text-cyan-800 font-medium font-serif">
+      <p className="leading-relaxed mb-5 text-slate-800 font-medium font-serif">
        Feel Free to Contact me...
+    
       </p>
+    
+      <form  action="https://formspree.io/f/xrbgbzll"
+  method="POST">
       <div className="relative mb-4">
         <label htmlFor="name" className="leading-7 text-sm text-gray-600 font-serif" >
           Name
@@ -54,8 +58,8 @@ const Contact =()=>{
           type="text"
           id="name"
           name="name"
-          className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-        />
+          className="w-full bg-white rounded border border-gray-300 focus:border-cyan-600 focus:ring-2 focus:ring-cyan-200 text-base outline-none text-slate-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          required/>
       </div>
       <div className="relative mb-4">
         <label htmlFor="email" className="leading-7 text-sm text-gray-600">
@@ -65,8 +69,21 @@ const Contact =()=>{
           type="email"
           id="email"
           name="email"
-          className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-        />
+          className="w-full bg-white rounded border border-gray-300 focus:border-cyan-600 focus:ring-2 focus:ring-cyan-200 text-base outline-none text-slate-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          required/>
+      </div>
+
+
+      <div className="relative mb-4">
+        <label htmlFor="subject" className="leading-7 text-sm text-gray-600">
+          Subject
+        </label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          className="w-full bg-white rounded border border-gray-300 focus:border-cyan-600 focus:ring-2 focus:ring-cyan-200 text-base outline-none text-slate-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          required/>
       </div>
       <div className="relative mb-4">
         <label htmlFor="message" className="leading-7 text-sm text-gray-600 font-serif">
@@ -75,13 +92,14 @@ const Contact =()=>{
         <textarea
           id="message"
           name="message"
-          className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+          className="w-full bg-white rounded border border-gray-300 focus:border-cyan-600 focus:ring-2 focus:ring-cyan-200 h-32 text-base outline-none text-slate-800 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
           defaultValue={""}
-        />
+        required/>
       </div>
       <button className="text-white bg-cyan-800 border-0 py-2 px-6 font-serif focus:outline-none hover:bg-cyan-700 rounded text-lg">
         Send Message...
       </button>
+      </form>
       
     </div>
   </div>

@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 const Footer=()=>{
 
     return(
-        <div className="bg-gradient-to-r from-white via-cyan-200 to-slate-400">
+        <div className="bg-gradient-to-r from-white via-cyan-200 to-slate-200">
           <footer className="text-gray-600 body-font">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-cyan-800">

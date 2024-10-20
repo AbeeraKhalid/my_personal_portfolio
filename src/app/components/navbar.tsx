@@ -4,7 +4,7 @@ import Image from "next/image";
 import { IoIosCloudDownload } from "react-icons/io";
 const Navbar = () => {
   return (
-    <div className="bg-gradient-to-r from-white via-cyan-200 to-slate-400 z-50 sticky top-0">
+    <div className="bg-gradient-to-r from-white via-cyan-200 to-slate-200 z-50 sticky top-0">
       <header className="text-gray-800 body-font">
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-cyan-900 mb-4 md:mb-0">

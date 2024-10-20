@@ -20,24 +20,26 @@ export default function Project() {
             className="flex flex-col text-center w-full mb-20"
             data-aos="fade-up"
           >
-            <h1 className="sm:text-4xl font-bold mb-3 text-slate-800 font-style: italic font-serif underline underline-offset-1 ...">
+            <h1 className="sm:text-4xl font-bold mb-3 text-cyan-900  font-style: italic font-serif underline underline-offset-1 ...">
               My Projects
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-medium text-cyan-800 font-serif">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-bold text-slate-900 font-serif">
               "I built these projects to challenge myself and showcase my skills
               in HTML, CSS,Javascript, TypeScript, and Next.js. Through hands-on
               practice and experimentation, I aimed to push my limits and
-              explore the possibilities of modern web development. Each project
+              explore the possibilities of modern web development. Each projects
               represents a milestone in my learning journey, demonstrating my
               growth and proficiency in creating responsive, efficient, and
-              user-friendly web applications This portfolio showcases my early
+              user-friendly web applications. I'm constantly discovering new
+              concepts, tools, and technologies.  This portfolio showcases my early
               projects and experiments, highlighting my enthusiasm and
               dedication to successful growth.."
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div
-              className="lg:w-1/3 sm:w-1/2 p-4" //1
+
+
+            <div className="lg:w-1/3 sm:w-1/2 p-4" //1
               data-aos="flip-left"
             >
               <div className="relative group">
@@ -51,7 +53,7 @@ export default function Project() {
                     <h2 className="text-xl font-semibold text-gray-900 mb-3">
                       HTML,CSS & JS Projects
                     </h2>
-                    <p className="leading-relaxed text-gray-700 mb-4">
+                    <p className="leading-relaxed text-gray-700 mb-4 line-clamp-6">
                       The first step of any web developer to learn basic structural
                       Language such as HTML,CSS,Javascript. I create many
                       projects/games by using HTML CSS and Javascript languages, 
@@ -59,7 +61,7 @@ export default function Project() {
                       Making these projects, I experienced  alot creating a
                       web page and diff app.
                     </p>
-                    <Link
+                    <Link target="_blank"
                       className="text-cyan-600 font-semibold hover:underline"
                       href="/HTML"
                     >
@@ -72,7 +74,7 @@ export default function Project() {
 
            
   
-            <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="flip-left">
+            <div className="lg:w-1/3 sm:w-1/2 p-4 "data-aos="flip-left">
               <div className="relative group">
                 <Image
                   alt="Typescript Projects"
@@ -84,14 +86,14 @@ export default function Project() {
                     <h2 className="text-xl font-semibold text-gray-900 mb-3">
                       Typescript Projects
                     </h2>
-                    <p className="leading-relaxed text-gray-700 mb-4">
+                    <p className="leading-relaxed text-gray-700 mb-4 line-clamp-10">
                     The Second step of my journey to learn CLI Based Programming 
                       Languages just like Typescript. I create many
                      CLI projects/games by using Typescript languages, 
                     I created these projects during the learning of
                       TypeScript.
                     </p>
-                    <Link
+                    <Link target="_blank"
                       className="text-cyan-600 font-semibold hover:underline"
                       href="/Typescript"
                     >
@@ -114,7 +116,7 @@ export default function Project() {
                     <h2 className="text-xl font-semibold text-gray-900 mb-3">
                       Next.js Projects
                     </h2>
-                    <p className="leading-relaxed text-gray-700 mb-4">
+                    <p className="leading-relaxed text-gray-700 mb-4 line-clamp-6">
                     The Third step of any web developer journey after learn different
                       Languages such as HTML,CSS,Javascript. I create many
                       projects/games by using The framework of next.js. 
@@ -123,7 +125,7 @@ export default function Project() {
                       Making these projects, I experienced  alot creating a
                       web page and diff app.
                     </p>
-                    <Link
+                    <Link target="_blank"
                       className="text-cyan-600 font-semibold hover:underline"
                       href="/NextJs"
                     >
