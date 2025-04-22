@@ -21,6 +21,11 @@ const About = () => {
               deliver seamless user experiences across all the world. My journey
               into the world of technology has been driven by curiosity and a
               desire to create some special and interactive designs.
+              As a Teacher,HomeTutor and Online Tutor, I support and encourage students by
+              simplifying difficult concepts and developing a deeper
+              understanding of modern technology, finding opportunities
+              to use my passion, knowledge and passion to meet their 
+              educational needs and prepare them for today's world. 
             </p>
 
             <p className="mb-5 leading-relaxed font-medium text-slate-700">
