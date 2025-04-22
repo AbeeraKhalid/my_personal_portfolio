@@ -260,6 +260,70 @@ const NextJsProjects = () => {
                 </a>
               </div>
             </div>
+                        {/* Card 8 */}
+            <div
+              className="bg-gradient-to-b from-pink-200 to-yellow-50 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out"
+              data-aos="fade-left"
+            >
+              <Image
+                src={require("../../../public/assests/Projects/nextjs2.jpg")}
+                alt="Project 8"
+                className="w-full h-48 object-cover ease-in-out transform hover:scale-105"
+              />
+              <div className="p-6">
+                <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                  MILESTONE 8: (Furniro)Figma website
+                </h2>
+                <p className="text-gray-600 mb-4">
+                  <br />I have successfully transformed the Figma design into a fully responsive , pixel-perfect website 🚀 This milestone has been an incredible journey of growth, learning, and skill development.
+                </p>
+                <a
+                  href="https://hackathone-figma-storebyabeera.vercel.app/"
+                  className="inline-block px-4 py-2 bg-pink-600 text-white font-bold rounded hover:bg-yellow-500 transition-colors duration-300"
+                >
+                  Deployed Site
+                </a>
+                <br />
+                <a
+                  href="https://github.com/AbeeraKhalid/Hackathone_figma_store"
+                  className="inline-block mt-2 px-4 py-2 bg-pink-600 text-white font-bold rounded hover:bg-yellow-500 transition-colors duration-300"
+                >
+                  GitHub Link
+                </a>
+              </div>
+            </div>
+                                    {/* Card 9 */}
+            <div
+              className="bg-gradient-to-b from-pink-200 to-yellow-50 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out"
+              data-aos="fade-left"
+            >
+              <Image
+                src={require("../../../public/assests/Projects/nextjs 2.jpg")}
+                alt="Project 8"
+                className="w-full h-48 object-cover ease-in-out transform hover:scale-105"
+              />
+              <div className="p-6">
+                <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                  MILESTONE 8: (Furniro)Figma website
+                </h2>
+                <p className="text-gray-600 mb-4">
+                  <br />I have successfully transformed the Figma design into a fully responsive , pixel-perfect website 🚀 This milestone has been an incredible journey of growth, learning, and skill development.
+                </p>
+                <a
+                  href="https://figma-store-template-0byabeera.vercel.app/"
+                  className="inline-block px-4 py-2 bg-pink-600 text-white font-bold rounded hover:bg-yellow-500 transition-colors duration-300"
+                >
+                  Deployed Site
+                </a>
+                <br />
+                <a
+                  href="https://github.com/AbeeraKhalid/figma_Store_template-0"
+                  className="inline-block mt-2 px-4 py-2 bg-pink-600 text-white font-bold rounded hover:bg-yellow-500 transition-colors duration-300"
+                >
+                  GitHub Link
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
