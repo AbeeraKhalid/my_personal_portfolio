@@ -304,7 +304,7 @@ const NextJsProjects = () => {
               />
               <div className="p-6">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-2">
-                  MILESTONE 8: (Furniro)Figma website
+                  MILESTONE 8: (RocketSingleSeater)Figma website
                 </h2>
                 <p className="text-gray-600 mb-4">
                   <br />I have successfully transformed the Figma design into a fully responsive , pixel-perfect website 🚀 This milestone has been an incredible journey of growth, learning, and skill development.
